@@ -1,0 +1,47 @@
+body {
+  background-color: #E4E4E4;
+  width: 100%;
+}
+.top_menu_zero {
+  position: relative;
+  height: 4vw;
+  width: inherit;
+  top: 0px;
+  left: 0px;
+  background-color: #E4E4E4;
+}
+.box_1 {
+  width: inherit;
+  height: 71vw;
+  position: relative;
+  overflow: hidden;
+}
+.top_menu {
+  height: 4vw;
+  width: inherit;
+  top: 0px;
+  left: 0px;
+  background-color: #E4E4E4;
+  position: fixed;
+}
+.top_menu > * {
+  font-family: 'Winter';
+  position: relative;
+  padding-left: 3vw;
+  padding-top: 0.7vw;
+  color: #9E9E9E;
+  font-size: 3vw;
+  display: inline-block;
+  }
+.top_menu > *:hover {
+  font-style: italic;
+  color: #FF9330;
+}
+.obare_1 {
+  height: 85vw;
+  width: 100vw;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/obare_1.jpg');
+}

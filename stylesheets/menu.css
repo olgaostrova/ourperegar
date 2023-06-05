@@ -1,0 +1,114 @@
+
+.box {
+  display: grid;
+  grid-gap: 2vh;
+  margin: 2vh;
+  height: 96vh;
+  /* width: 130.7vh; */
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+body {
+  background-color: #E4E4E4;
+}
+.box > div {
+  padding: 1em;
+}
+.obare {
+  height: auto;
+  width: auto;
+  background-color: #CDCDCD;
+  grid-column: 1/5;
+  grid-row: 1/3;
+}
+.menu {
+  background-color: #CDCDCD;
+  grid-column: 1/3;
+  grid-row: 3/7;
+}
+.otzivi {
+  background-color: #CDCDCD;
+  grid-column: 3/5;
+  grid-row: 3/5;
+}
+.magazin {
+  background-color: #CDCDCD;
+  grid-column: 3/6;
+  grid-row: 5/7;
+}
+.afisha {
+  background-color: #CDCDCD;
+  grid-column: 5/9;
+  grid-row: 1/4;
+}
+.sob {
+  background-color: #CDCDCD;
+  grid-column: 6/9;
+  grid-row: 4/7;
+}
+.game {
+  grid-column: 5/6;
+  grid-row: 4/5;
+  background-color: #FF9330;
+}
+.reg {
+  font-family: 'Winter';
+}
+.box > div > p {
+    font-size: 8vh;
+    color: #FF9330;
+}
+.box > p {
+    font-size: 8vh;
+    color: #FF9330;
+}
+
+.it {
+  font-family: 'Winter';
+  font-style: italic;
+}
+.obaretext {
+  top: 26.3vh;
+  left: 1.67vh;
+  position: absolute;
+}
+.menu > p {
+  top: 32.35vh;
+  left: 1.53vh;
+  position: absolute;
+}
+.otzivi > p {
+  top: 58.9vh;
+  left: 34.8vh;
+  position: absolute;
+}
+.magazin > p {
+  top: 65vh;
+  left: 34.8vh;
+  position: absolute;
+}
+.afisha > p {
+  top: 42.6vh;
+  left: 107.5vh;
+  position: absolute;
+}
+.sob > p {
+  top: 91.6vh;
+  left: 84.56vh;
+  position: absolute;
+}
+.size {
+  width: inherit;
+  height: inherit;
+}
+.orange:hover {
+  background-color: #FF9330;
+  transition: 0.1s;
+}
+.game:hover {
+  background-color: #CDCDCD;
+  transition: 0.1s;
+}
+.obare:hover ~ .obaretext {
+  color: #E4E4E4;
+}
